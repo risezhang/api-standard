@@ -192,6 +192,9 @@ username=root&password=passowrd
 
 * Content-Type: multipart/form-data; boundary=—-RANDOM_iAkdD3if4I5oO (表单有文件上传时的格式)
 
+### 6. 为内省而提供 Request-Id
+
+为每一个请求响应包含一个Request-Id头，并使用UUID作为该值。通过在客户端、服务器或任何支持的服务上记录该值，它能为我们提供一种机制来跟踪、诊断和调试请求。
 
 ## 响应
 
