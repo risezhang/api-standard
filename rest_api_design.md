@@ -270,11 +270,12 @@ response 的 body 直接就是数据，不要做多余的包装。
 发生错误时，不要给客户端2xx 的响应，而应使用对应的http 状态码。且应生成结构化的响体，指明含有能标识错误的代码（给客户端识别）以及错误的消息（给人看）：
 ```
 {
-     "error": {
-     	"code": "wrong_credential",
-     	"message": "logon attempt failed due to invalid login name or password",
-     	"innererror": "..." // 可选的字段，针对当前错误，给出更详细的信息。通常可以用在500错误里，给出异常的具体信息
-     }
+  "timestamp": 1489073010721,
+  "status": 404,
+  "error": "Not Found",
+  "exception": "com.risezhang.api.demo.exception.BookNotFound",
+  "message": "No such book!",
+  "path": "/v1/books/1"
 }
 ```
 
