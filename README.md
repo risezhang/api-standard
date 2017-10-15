@@ -3,7 +3,7 @@
 * [基于 Git 的开发流程](git_workflow.md)
 * [网络应用设计指南](app_design.md)
 * [Restful API 设计指南](rest_api_design.md)
-* [JAVA 开发规范（阿里版）- 1.1版](ali_java_spec_1.1.pdf)
+* [JAVA 开发规范（阿里版）- 1.2版](ali_java_spec_1.2.pdf)
 * [基于 Spring Boot 的开发框架](java_api_demo.md)
     * [Demo 项目地址：src/api-demo](src/api-demo) 
 
